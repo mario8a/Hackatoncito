@@ -1,0 +1,32 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>login</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+    <ion-grid>
+        <ion-col>
+            <ion-item>
+                <ion-label position="floating">Email</ion-label>
+                <ion-input type="email"></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="floating">Password</ion-label>
+                <ion-input type="password"></ion-input>
+            </ion-item>
+
+            <ion-button shape="round" expand="block" [routerLink]="['/app']">
+                Login
+            </ion-button>
+            <ion-button shape="round" expand="block">
+                Registro
+            </ion-button>
+            <ion-button shape="round" expand="block">
+                Facebook
+            </ion-button>
+        </ion-col>
+    </ion-grid>
+
+</ion-content>
